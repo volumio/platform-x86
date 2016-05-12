@@ -18,21 +18,26 @@ make menuconfig
 ## de-selecting it changes .config to use i386_defconfig
 ## select overlayfs as a module
 
+
 make deb-pkg 
 ## - You will be asked here what to do with all the new config params (compared to 3.16.0), see saved i386-volumio.config
 ## - I only added some of the drivers that looked interesting
 ## - When finished, you will find the .deb packages in ../
-
-cp .config i386-volumio.config
+##  backup .config i386-volumio.config
 
 21.01.2016/gkkpch
 =======================
 ## add to 'make menuconfig':
 ## ensure Networking >> Networking options >> Network packet filtering >> Core Netfilter Configuration >> Netfilter Xtables support (required for ip_tables) is selected (not as loadable module) and select the all following options as modules.
 ## ensure Networking >> Networking options >> Network packet filtering >> IP: Net Filter configurationS >> IP Tables support is selected as modules, also for IPv6
+## backup .config to i386-volumio.config
 
-
-
+12.05.2016/gkkpch
+======================
+## add to 'make menuconfig':
+## select ATA as embedded
+## select AHCI as embedded 
+## backup .config to i386-volumio.config
 
 
 
