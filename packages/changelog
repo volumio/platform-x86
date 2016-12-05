@@ -39,6 +39,12 @@ make deb-pkg
 ## select AHCI as embedded 
 ## backup .config to i386-volumio.config
 
+20.10.2016/ gkkpch
+======================
+## re-compiled on a real i386 OS to avoid linux header problems, preventing to compile drivers
+## included the tarred Intel driver source for e1000e version 3.3.4
+## compiled the e1000e driver and added the module to folder Intel e1000e 3.3.4-NAPI/
+   (The x86 build process will copy this one over the old intel e1000e driver)
 
 
 
