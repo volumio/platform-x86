@@ -14,20 +14,20 @@ This is how VolumioOS kernel 3.18.25 was built
 - Download the 3.18.25 kernel source from www.kernel.org (I used wget)
 
 ~wget https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.18.25.tar.xz
-unzx linux-3.18.25.tar.xz
-tar xvf linux-3.18.25.tar
-cd linux-3.18.25~
+unzx linux-3.18.25.tar.xz  
+tar xvf linux-3.18.25.tar  
+cd linux-3.18.25~  
 
 - I used the kernel config from the debian 8.1 distro as a good start.
 
-~copy /boot/config-3.16.0-4-amd64 .config
-make menuconfig ~
+~copy /boot/config-3.16.0-4-amd64 .config  
+make menuconfig ~  
 
 - make sure 64-bit support is NOT selected (it will be if the host is am amd64)!!
 - de-selecting it changes .config to use i386_defconfig
 - select overlayfs as a module
 
-~make deb-pkg ~
+~make deb-pkg ~  
 
 - You will be asked here what to do with all the new config params (compared to 3.16.0), see saved i386-volumio.config
 - I only added some of the drivers that looked interesting
