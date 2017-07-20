@@ -59,6 +59,9 @@ make deb-pkg
 - re-compiled with module hid-penmount (CONFIG_HID_PENMOUNT=y)
 - backup .config to i386-volumio.config
 
+#### Experimental Update 20.07.2017/ gkkpch  
+- compiled Kernel Version 4.9.29, please change buildscript repo to copy from packages/experimental
+
 
 
 
