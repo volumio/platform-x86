@@ -1,40 +1,41 @@
-##platform-x86
+  
+## platform-x86   
 
-Kernel Sources: http://www.kernel.org, Version 3.18.25
+Kernel Sources: http://www.kernel.org, Version 3.18.25  
 
 This repo contains all platform-specific files, used by the Volumio Builder 
 to create an **X86** image:
 
-- Kernel files (kernel, modules, firmware)
-- Other files, e.g. used during the boot process
+- Kernel files (kernel, modules, firmware)  
+- Other files, e.g. used during the boot process  
 
-####15.01.2016/gkkpch
+#### 15.01.2016/gkkpch  
 
-This is how VolumioOS kernel 3.18.25 was built
-- Download the 3.18.25 kernel source from www.kernel.org (I used wget)
+This is how VolumioOS kernel 3.18.25 was built  
+- Download the 3.18.25 kernel source from www.kernel.org (I used wget)  
 
 wget https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.18.25.tar.xz  
 unzx linux-3.18.25.tar.xz  
 tar xvf linux-3.18.25.tar  
 cd linux-3.18.25  
 
-- I used the kernel config from the debian 8.1 distro as a good start.
+- I used the kernel config from the debian 8.1 distro as a good start.  
 
-cp /boot/config-3.16.0-4-amd64 .config    
+cp /boot/config-3.16.0-4-amd64 .config      
 make menuconfig  
 
-- make sure 64-bit support is NOT selected (it will be if the host is am amd64)!!
-- de-selecting it changes .config to use i386_defconfig
-- select overlayfs as a module
+- make sure 64-bit support is NOT selected (it will be if the host is am amd64)!!  
+- de-selecting it changes .config to use i386_defconfig  
+- select overlayfs as a module  
 
-make deb-pkg 
+make deb-pkg  
 
 - You will be asked here what to do with all the new config params (compared to 3.16.0), see saved i386-volumio.config
 - I only added some of the drivers that looked interesting
 - When finished, you will find the .deb packages in ../
 - backup .config i386-volumio_defconfig
 
-####21.01.2016/gkkpch
+#### 21.01.2016/gkkpch  
 
 - add to 'make menuconfig':
 - ensure Networking >> Networking options >> Network packet filtering >> Core Netfilter Configuration >> Netfilter Xtables support (required for ip_tables) is selected (not as loadable module) and select the all following options as modules.
@@ -58,6 +59,16 @@ make deb-pkg
 #### Update 10.02.2017/ gkkpch
 - re-compiled with module hid-penmount (CONFIG_HID_PENMOUNT=y)
 - backup .config to i386-volumio.config
+
+#### Experimental Update 20.07.2017/ gkkpch  
+- compiled Kernel Version 4.9.29, please put a file .next into the packages folder to build experimental
+
+#### Update 09.09.2017/ gkkpch
+
+- Fixing pops with DSD files, manually patched /sound/usb/endpoint.ch with the contents of this patch:  
+https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
+
+
 
 
 
