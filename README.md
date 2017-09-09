@@ -1,5 +1,5 @@
   
-##platform-x86   
+## platform-x86   
 
 Kernel Sources: http://www.kernel.org, Version 3.18.25  
 
@@ -9,7 +9,7 @@ to create an **X86** image:
 - Kernel files (kernel, modules, firmware)  
 - Other files, e.g. used during the boot process  
 
-####15.01.2016/gkkpch  
+#### 15.01.2016/gkkpch  
 
 This is how VolumioOS kernel 3.18.25 was built  
 - Download the 3.18.25 kernel source from www.kernel.org (I used wget)  
@@ -35,7 +35,7 @@ make deb-pkg
 - When finished, you will find the .deb packages in ../
 - backup .config i386-volumio_defconfig
 
-####21.01.2016/gkkpch  
+#### 21.01.2016/gkkpch  
 
 - add to 'make menuconfig':
 - ensure Networking >> Networking options >> Network packet filtering >> Core Netfilter Configuration >> Netfilter Xtables support (required for ip_tables) is selected (not as loadable module) and select the all following options as modules.
@@ -67,6 +67,7 @@ make deb-pkg
 
 - Fixing pops with DSD files, manually patched /sound/usb/endpoint.ch with the contents of this patch:  
 https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
+
 
 
 
