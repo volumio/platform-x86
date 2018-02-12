@@ -68,9 +68,19 @@ make deb-pkg
 - Fixing pops with DSD files, manually patched /sound/usb/endpoint.c with the contents of this patch:  
 https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
-#### Experimental Update 10.02.2018/ gkkpch
+#### Experimental Update 12.02.2018/ gkkpch
 
-- Bump to 4.9.80 Note: sound/usb/endpoint.c patch to be checked
+- Bump to 4.9.80   
+- Fixing pops with DSD files, manually patched /sound/usb/endpoint.c with the contents of this patch:  
+  https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061  
+- Updated sound/usb/quirks.c
+
+#### Update 12.02.2018/ gkkpch
+
+- Updated sound/usb/quirks.c  
+
+
+
 
 
 
