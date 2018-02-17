@@ -79,6 +79,15 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
 - Updated sound/usb/quirks.c  
 
+#### Experimental update 17.02.2018/ gkkpch
+
+- Bumped to 4.12.9+
+- Added patch for Intel CherryTrail SST Audio, incl. ES8316 codec
+- Added additional (NEW) configuration option to the kernel.
+- Fixing pops with DSD files, manually patched /sound/usb/endpoint.c with the contents of this patch:
+  https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
+- Updated sound/usb/quirks.c
+- Saved chnages as a patch-file
 
 
 
