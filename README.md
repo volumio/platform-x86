@@ -87,7 +87,13 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 - Fixing pops with DSD files, manually patched /sound/usb/endpoint.c with the contents of this patch:
   https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 - Updated sound/usb/quirks.c
-- Saved chnages as a patch-file
+- Saved changes as a patch-file
+
+#### Experimental update 22.02.2018/ gkkpch
+
+- Small additions, remove "diff" file
+
+
 
 
 
