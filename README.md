@@ -91,7 +91,17 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
 #### Experimental update 22.02.2018/ gkkpch
 
-- Small additions, remove "diff" file
+- Small additions, remove "diff" file  
+
+#### Experimental update 13.04.2018/ gkkpch
+
+- First version with kernel 4.16
+- Includes latest DSD additions
+- Includes working Baytrail/ Cherrytrail audio devices for Intel SST
+- Includes SD support
+- Firmware (removed from kernel as per 4.13) moved to the X86 build scripts  
+
+
 
 
 
