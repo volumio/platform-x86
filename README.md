@@ -103,7 +103,11 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
 #### Prepare for Debian stretch 27.07.2018 
 
-- Split packages for X86 jessie and stretch (old/new kernel) in two separate folders
+- Split packages for X86 jessie and stretch (old/new kernel) in two separate folders  
+
+#### First platform package for Debian stretch 16.09.2018  
+
+- linux-firmware-stretch.xz replacing the firmware folder (which can be deleted later)  
 
 
 
