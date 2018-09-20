@@ -109,14 +109,6 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
 - linux-firmware-stretch.xz replacing the firmware folder (which can be deleted later)  
 
+#### Cleaned up firmware
 
-
-
-
-
-
-
-
-
-
-
+- Cleaned up and renamed linux-firmware-stretch.xz to linux-firmware-stretch.tar.xz
