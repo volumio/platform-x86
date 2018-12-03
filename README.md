@@ -112,3 +112,9 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 #### Cleaned up firmware
 
 - Cleaned up and renamed linux-firmware-stretch.xz to linux-firmware-stretch.tar.xz
+
+#### Kernel Upgrade/ gkkpch 03.12.2018
+
+- Kernel Version 4.19.y, current 4.19.6
+
+
