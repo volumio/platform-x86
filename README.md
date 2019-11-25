@@ -122,7 +122,7 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 - Current kernel version 4.19.76
 
 20191018	Bumped kernel version to 4.19.79
-
+20191125	Bumped kernel version to 5.4.0
  
 
 
