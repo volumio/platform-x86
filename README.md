@@ -113,16 +113,17 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
 - Cleaned up and renamed linux-firmware-stretch.xz to linux-firmware-stretch.tar.xz
 
-#### Kernel Upgrade/ gkkpch 03.12.2018
+#### Debian Stretch dismissed/ Jessie with new kernel gkkpch 03.12.2018
 
-2018-12-03: Kernel Version 4.19 LTS, current 4.19.6  
-2019-01-01: Current 4.19.13   
-2019-01-12: Current 4.19.14 LTS  
+- Kernel Version 4.19.y, current 4.19.37, for current Debian Jessie distro (platform-nk)  
 
+#### Abandoned Debian stretch 08.10.2019
+: - Added kernel packages for Debian Buster
+- Current kernel version 4.19.76
 
-
-
-
+20191018	Bumped kernel version to 4.19.79
+20191125	Bumped kernel version to 5.4.0
+ 
 
 
 
