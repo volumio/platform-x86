@@ -118,11 +118,15 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 - Kernel Version 4.19.y, current 4.19.37, for current Debian Jessie distro (platform-nk)  
 
 #### Abandoned Debian stretch 08.10.2019
-: - Added kernel packages for Debian Buster
+- Added kernel packages for Debian Buster
 - Current kernel version 4.19.76
 
-20191018	Bumped kernel version to 4.19.79
-20191125	Bumped kernel version to 5.4.0
+20191018	Bumped kernel version to 4.19.79  
+20191125	Bumped kernel version to 5.4.0  
+20200123	Bumped kernel version to 5.4.13 + firmware updates   
+
+
+
  
 
 
