@@ -124,6 +124,7 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 20191018	Bumped kernel version to 4.19.79  
 20191125	Bumped kernel version to 5.4.0  
 20200123	Bumped kernel version to 5.4.13 + firmware updates   
+20200210	Bumped kernel version to 5.4.18  
 
 
 
