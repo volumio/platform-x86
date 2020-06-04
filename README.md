@@ -134,6 +134,8 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 20200224	Bumping to 4.19.106, adding a patch for intel 3138 wifi
 (https://patchwork.kernel.org/patch/11353871/ )  
 
+20200604	Bumped to 4.19.126  
+
 
 
  
