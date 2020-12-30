@@ -136,7 +136,11 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
 20200604	Bumped to 4.19.126  
 
+20201223	Bumped to 4.19.126 (i386 + amd64)
 
+20201224	Updated to firmware_20201218 (kernel.org)/ simplified grub.cfg  
+
+20201229	Bumped to 4.19.164 and 5.10.4 (i386 + amd64)
 
  
 
