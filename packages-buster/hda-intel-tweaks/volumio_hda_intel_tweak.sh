@@ -20,6 +20,7 @@ for card in /sys/class/sound/card*; do
       /usr/bin/amixer -c $cardno set Center,0 mute
       /usr/bin/amixer -c $cardno set LFE,0 mute
       /usr/bin/amixer -c $cardno set IEC958,16 unmute
+      /usr/bin/amixer -c $cardno set Headphone,0 unmute
       ;;
     "IDT 92HD81B1X5") ;;
 
@@ -28,4 +29,3 @@ for card in /sys/class/sound/card*; do
   esac
 done
 exit 0
-
