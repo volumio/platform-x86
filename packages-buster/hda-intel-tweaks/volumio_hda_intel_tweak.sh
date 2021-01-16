@@ -15,7 +15,7 @@ for card in /sys/class/sound/card*; do
       fi
       ;;
     "Realtek ALC892")
-      /usr/bin/amixer -c $cardno set Front,0 mute
+      /usr/bin/amixer -c $cardno set Front,0 unmute
       /usr/bin/amixer -c $cardno set Surround,0 mute
       /usr/bin/amixer -c $cardno set Center,0 mute
       /usr/bin/amixer -c $cardno set LFE,0 mute
