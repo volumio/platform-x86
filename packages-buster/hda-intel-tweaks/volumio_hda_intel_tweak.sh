@@ -15,14 +15,19 @@ for card in /sys/class/sound/card*; do
       fi
       ;;
     "Realtek ALC892")
-      /usr/bin/amixer -c $cardno set Front,0 unmute
       /usr/bin/amixer -c $cardno set Surround,0 mute
       /usr/bin/amixer -c $cardno set Center,0 mute
       /usr/bin/amixer -c $cardno set LFE,0 mute
       /usr/bin/amixer -c $cardno set IEC958,16 unmute
-      /usr/bin/amixer -c $cardno set Headphone,0 unmute
+      /usr/bin/amixer -c $cardno set Front 115 unmute
+      /usr/bin/amixer -c $cardno set Headphone 115 unmute
+      /usr/bin/amixer -c $cardno set Master 115 unmute
       ;;
-    "IDT 92HD81B1X5") ;;
+    "IDT 92HD81B1X5")
+      /usr/bin/amixer -c $cardno set Headphone 115
+      /usr/bin/amixer -c $cardno set Speaker 115
+      /usr/bin/amixer -c $cardno set Master 115
+      ;;
 
     esac
     ;;

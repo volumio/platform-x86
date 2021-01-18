@@ -142,10 +142,11 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
 20201229	Bumped to 4.19.164 and 5.10.4 (i386 + amd64)
 
-20200105	Updated kernel configuration/ corrections for 5.10.4-i386  
+20210105	Updated kernel configuration/ corrections for 5.10.4-i386  
 
-20200115	Updated intel hda soundcards tweaks  
+20210115	Updated intel hda soundcards tweaks  
  
+20210119	Updated intel hda soundcards tweaks, improved AMD support, grub.cfg cosmetics  
 
 
 
