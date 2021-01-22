@@ -13,25 +13,26 @@ for card in /sys/class/sound/card*; do
       if [ ! "x$mixer_exists" == "x" ]; then
         /usr/bin/amixer -c $cardno set IEC958,16 unmute
       fi
+      /usr/bin/amixer -c $cardno set Master "75%" unmute
       ;;
     "Realtek ALC892")
       /usr/bin/amixer -c $cardno set Surround,0 mute
       /usr/bin/amixer -c $cardno set Center,0 mute
       /usr/bin/amixer -c $cardno set LFE,0 mute
       /usr/bin/amixer -c $cardno set IEC958,16 unmute
-      /usr/bin/amixer -c $cardno set Front 55 unmute
-      /usr/bin/amixer -c $cardno set Headphone 55 unmute
-      /usr/bin/amixer -c $cardno set Master 55 unmute
+      /usr/bin/amixer -c $cardno set Front "92%" unmute
+      /usr/bin/amixer -c $cardno set Headphone "92%" unmute
+      /usr/bin/amixer -c $cardno set Master "75%" unmute
       ;;
     "Realtek ALC668")
-      /usr/bin/amixer -c $cardno set Headphone 80 unmute
-      /usr/bin/amixer -c $cardno set Speaker 80 unmute
-      /usr/bin/amixer -c $cardno set Master 80 unmute
+      /usr/bin/amixer -c $cardno set Headphone "92%" unmute
+      /usr/bin/amixer -c $cardno set Speaker "92%" unmute
+      /usr/bin/amixer -c $cardno set Master "75%" unmute
       ;;
     "IDT 92HD81B1X5")
-      /usr/bin/amixer -c $cardno set Headphone 115 unmute
-      /usr/bin/amixer -c $cardno set Speaker 115 unmute
-      /usr/bin/amixer -c $cardno set Master 115 unmute
+      /usr/bin/amixer -c $cardno set Headphone "92%" unmute
+      /usr/bin/amixer -c $cardno set Speaker "92%" unmute
+      /usr/bin/amixer -c $cardno set Master  "75%" unmute
       ;;
 
     esac
