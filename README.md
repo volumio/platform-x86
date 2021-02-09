@@ -150,4 +150,6 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
 20210122	Bumped to kernel 5.10.9, removed a load of irrelevant modules from kernel config
 
+20210209	(grub.cfg) Removed kernel version from image name (fixed 'vmlinuz')  
+
 
