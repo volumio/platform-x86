@@ -153,3 +153,6 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 20210209	(grub.cfg) Removed kernel version from image name (fixed 'vmlinuz')
 
 20210216	Bumped to kernel 5.10.16, added RTL8821CE/8822CE
+
+20210217  Bumped to kernel 5.10.17 (i386/amd64) for beta testing
+
