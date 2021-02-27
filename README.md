@@ -158,3 +158,6 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
 20210226	Alsa UCM: modified bytcr-init.sh
 
+20210227	Alsa UCM: modified bytcr-init.sh/ bytcht-es8316 additions
+
+
