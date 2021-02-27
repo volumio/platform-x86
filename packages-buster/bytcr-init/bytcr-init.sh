@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 #
 # This is still WIP, but working for some devices!!
 # Kernel patch may be needed for specific board quirks (sound/boards/intel)
@@ -8,7 +8,6 @@ for D in $(ls /usr/share/alsa/ucm); do
   if [[ $D == byt* ]] || [[ $D == cht* ]]; then
     DAC=$(aplay -l | grep $D)
     if [ ! -z "$DAC" ];then
-      echo "$DAC located"
       if [ ! -e /usr/share/alsa/ucm/$D/firsttime.done ]; then
         echo 'bytcr-init: first time run...'
         # Set headphones and speaker output, mixers enabled with
@@ -20,20 +19,26 @@ for D in $(ls /usr/share/alsa/ucm); do
             echo "rt5640 detected"
             /usr/bin/alsaucm -c bytcr-rt5640 set _verb HiFi set _enadev Speaker
             /usr/bin/alsaucm -c bytcr-rt5640 set _verb HiFi set _enadev Headphones
-	        ;;
+            echo "bytcr-init: first time run done"
+            touch /usr/share/alsa/ucm/$D/firsttime.done
+          ;;
 	        bytcr-rt5651)
             echo "rt5651 detected"
             /usr/bin/alsaucm -c bytcr-rt5651 set _verb HiFi set _enadev Speaker
             /usr/bin/alsaucm -c bytcr-rt5651 set _verb HiFi set _enadev Headphones
+            echo "bytcr-init: first time run done"
+            touch /usr/share/alsa/ucm/$D/firsttime.done
 	        ;;
-	        bytcr-es8316)
+	        bytcht-es8316)
             echo "es8316 detected"
+            echo "bytcr-init.sh: set initial output to headphones"
 	          # may have to experiment with asound.state to get reasonable levels as with the rt5651 above
-	          /usr/bin/alsaucm -c ${D} set _verb HiFi set _enadev Headphones
+	          /usr/bin/alsaucm -c bytcht-es8316 set _verb HiFi set _enadev Headphones
+            echo "bytcr-init: first time run done"
+            touch /usr/share/alsa/ucm/$D/firsttime.done
 	        ;;
 	      esac
-        echo "bytcr-init: first time run done"
-        touch /usr/share/alsa/ucm/$D/firsttime.done
+
       fi
     fi
   fi
