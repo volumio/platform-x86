@@ -164,3 +164,7 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
 20210308	On request: added VIRTIO_NET and VIRTIO_BLK drivers  
  
+20210409	Bumped to 5.10.28/ cherrytrail init update (es8316)  
+  
+
+
