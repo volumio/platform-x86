@@ -1,0 +1,3 @@
+event=jack/headphone HEADPHONE.*
+action=/usr/local/bin/jackdetect-rt5640.sh "%e"
+
