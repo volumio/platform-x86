@@ -168,3 +168,5 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
   
 20210412	Optimized x5-z8350 machines with rt5640 codec: auto jack detection for switching output
 
+20210508	Bumped to 5.10.35  
+
