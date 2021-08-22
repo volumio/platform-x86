@@ -170,3 +170,6 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 
 20210508	Bumped to 5.10.35  
 
+20210821	Bumped to 5.10.60
+
+
