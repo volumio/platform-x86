@@ -177,3 +177,6 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 20211006	Bumped to 5.10.70  
 
 20211012	Added Z83-II specific "brcmfmac43455-sdio.AZW-Z83 II.txt" to broadcom nvram  
+
+20211019	Completed soundcard "HD-Generic Audio" profile  
+
