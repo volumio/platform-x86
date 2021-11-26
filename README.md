@@ -122,61 +122,35 @@ https://github.com/Fourdee/linux/commit/70a8155a64fc3fde57f69f91da3b2835823e0061
 - Current kernel version 4.19.76
 
 20191018	Bumped kernel version to 4.19.79
-
 20191125	Bumped kernel version to 5.4.0
-
 20200123	Bumped kernel version to 5.4.13 + firmware updates
-
 20200210	Bumped kernel version to 5.4.18
-
 20200219	Reverting to kernel version 4.19.104 because of boot issues with 5.4.y
-
 20200224	Bumping to 4.19.106, adding a patch for intel 3138 wifi
 (https://patchwork.kernel.org/patch/11353871/ )
-
 20200604	Bumped to 4.19.126
-
 20201223	Bumped to 4.19.126 (i386 + amd64)
-
 20201224	Updated to firmware_20201218 (kernel.org)/ simplified grub.cfg
-
 20201229	Bumped to 4.19.164 and 5.10.4 (i386 + amd64)
-
 20210105	Updated kernel configuration/ corrections for 5.10.4-i386
-
 20210115	Updated intel hda soundcards tweaks
-
 20210119	Updated intel hda soundcards tweaks, improved AMD support, grub.cfg cosmetics
-
 20210122	Bumped to kernel 5.10.9, removed a load of irrelevant modules from kernel config
-
 20210209	(grub.cfg) Removed kernel version from image name (fixed 'vmlinuz')
-
 20210216	Bumped to kernel 5.10.16, added RTL8821CE/8822CE
-
-20210217        Bumped to kernel 5.10.17 (i386/amd64) for beta testing
-
+20210217  Bumped to kernel 5.10.17 (i386/amd64) for beta testing
 20210226	Alsa UCM: modified bytcr-init.sh
-
 20210227	Alsa UCM: modified bytcr-init.sh/ bytcht-es8316 additions
-
 20210305	Bumped to 5.10.20 x86_amd64, removed i386 (for the beta, may add later)
-
-20210308	On request: added VIRTIO_NET and VIRTIO_BLK drivers  
- 
-20210409	Bumped to 5.10.28/ cherrytrail init update (es8316)  
-  
+20210308	On request: added VIRTIO_NET and VIRTIO_BLK drivers
+20210409	Bumped to 5.10.28/ cherrytrail init update (es8316)
 20210412	Optimized x5-z8350 machines with rt5640 codec: auto jack detection for switching output
-
-20210508	Bumped to 5.10.35  
-
+20210508	Bumped to 5.10.35
 20210821	Bumped to 5.10.60
+20210915	Bumped to 5.10.68
+20211006	Bumped to 5.10.70
+20211012	Added Z83-II specific "brcmfmac43455-sdio.AZW-Z83 II.txt" to broadcom nvram
+20211019	Completed soundcard "HD-Generic Audio" profile
+20211026  Support for audio: cht-bsw-rt5672 + C-Media, improved jack detection (bytcr/cht), new AMD firmware, kernel 5.10.79
 
-20210915	Bumped to 5.10.68  
-
-20211006	Bumped to 5.10.70  
-
-20211012	Added Z83-II specific "brcmfmac43455-sdio.AZW-Z83 II.txt" to broadcom nvram  
-
-20211019	Completed soundcard "HD-Generic Audio" profile  
 
