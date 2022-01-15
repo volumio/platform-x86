@@ -18,7 +18,7 @@ for card in /sys/class/sound/card*; do
         "Realtek ALC887-VD"|"Realtek ALC888-VD"|"Realtek ALC889A")
           /usr/bin/amixer -c $cardno set IEC958 unmute
           ;;
-        "Realtek ALC892"|"Realtek ALC898"|"Realtek ALC1220"|"C-Media Generic")
+        "Realtek ALC270"|"Realtek ALC892"|"Realtek ALC898"|"Realtek ALC1220"|"C-Media Generic")
           /usr/bin/amixer -c $cardno set Surround,0 mute
           /usr/bin/amixer -c $cardno set Center,0 mute
           /usr/bin/amixer -c $cardno set LFE,0 mute

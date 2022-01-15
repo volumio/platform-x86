@@ -153,6 +153,9 @@ Added kernel packages for Debian Buster
 - 20211019	Completed soundcard "HD-Generic Audio" profile
 - 20211026 Support for audio: cht-bsw-rt5672 + C-Media, improved jack detection (bytcr/cht), new AMD firmware, kernel 5.10.79
 - 20211224 Bumped to 5.10.88, added Broadcom Tigon Ethernet PHY support
+- 20220115 Bumped to 5.10.91, added Realtek RTL88x2BU wireless support
+
+
 
 
 
