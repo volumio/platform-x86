@@ -154,6 +154,8 @@ Added kernel packages for Debian Buster
 - 20211026 Support for audio: cht-bsw-rt5672 + C-Media, improved jack detection (bytcr/cht), new AMD firmware, kernel 5.10.79
 - 20211224 Bumped to 5.10.88, added Broadcom Tigon Ethernet PHY support
 - 20220115 Bumped to 5.10.91, added Realtek RTL88x2BU wireless support
+- 20220116 Bumped to 5.10.92, added Realtek drivers RTL8723DU/RTL8811CU/RTL88XXAU
+- 20220131 bUMPED TO 5.10.95, fixed RTL8812AU/RTL8814AU/RTL8821AU wireless driver
 
 
 
