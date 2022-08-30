@@ -158,6 +158,7 @@ Added kernel packages for Debian Buster
 - 20220131 Bumped to 5.10.95, fixed RTL8812AU/RTL8814AU/RTL8821AU wireless driver
 - 20220404 Bumped to 5.10.109, added patch for Cambridge USB Audio devices
 - 20220420 Bumped to 5.10.112, enabled Intel i225-lm/ i225-v ethernet controllers
+- 20220830 Bumped to 5.10.139
 
 
 
