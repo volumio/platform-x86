@@ -51,7 +51,11 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230103|gkkpch|Added kernel 6.1.2
 |20230104|gkkpch|Merged linux-firmware-20211027 (for kernel 5.10), firmware-b43, firmware-brcm-sdio-nvram and firmware-cfg80211 into a single firmware tarball ```firmware-20211127.tar.xz```
 |||Merged linux-firmware-20221216 (for kernel 6.1), firmware-b43, firmware-brcm-sdio-nvram and firmware-cfg80211 into a single firmware tarball ```firmware-20221216.tar.xz```
-|||Bumped to kernel 6.1.2
+|||Bumped to kernel 6.1.3
+|20230110|gkkpch|Kernel config: added CONFIG_I2C_HID_ACPI=m 
+|||Bumped to kernel 6.1.4
+|20230114|gkkpch|Bumped to kernel 6.1.6
+
 
 
 
