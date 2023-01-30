@@ -55,7 +55,8 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230110|gkkpch|Kernel config: added CONFIG_I2C_HID_ACPI=m 
 |||Bumped to kernel 6.1.4
 |20230114|gkkpch|Bumped to kernel 6.1.6
-
+|||Add DAC support: TempoTec Sonata BHD & E1DA #9038D
+  
 
 
 
