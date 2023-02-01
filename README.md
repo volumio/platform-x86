@@ -43,6 +43,7 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 - 20220404 Bumped to 5.10.109, added patch for Cambridge USB Audio devices
 - 20220420 Bumped to 5.10.112, enabled Intel i225-lm/ i225-v ethernet controllers
 - 20220830 Bumped to 5.10.139
+- 20230131 Bumped to 5.10.165, added support for additional DSD capable devices (see 6.
 
 ## **Moving to kernel 6.1.y**
 |Date|Author|Change
@@ -55,7 +56,7 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230110|gkkpch|Kernel config: added CONFIG_I2C_HID_ACPI=m 
 |||Bumped to kernel 6.1.4
 |20230114|gkkpch|Bumped to kernel 6.1.6
-|||Add DAC support: TempoTec Sonata BHD & E1DA #9038D
+|20230130|gkkpch|Bumped to 6.1.8, add direct DSD support: TempoTec Sonata BHD & E1DA #9038D
   
 
 
