@@ -45,7 +45,10 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20211006|gkkpch|Bumped to 5.10.70
 |20211012|gkkpch|Added Z83-II specific "brcmfmac43455-sdio.AZW-Z83 II.txt" to broadcom nvram
 |20211019|gkkpch|Completed soundcard "HD-Generic Audio" profile
-|20211026|gkkpch|Support for audio: cht-bsw-rt5672 + C-Media, improved jack detection (bytcr/cht), new AMD firmware, kernel 5.10.79
+|20211026|gkkpch|Support for audio: cht-bsw-rt5672 + C-Media
+|||improved jack detection (bytcr/cht)
+|||new AMD firmware
+|||Bumped to kernel 5.10.79
 |20211224|gkkpch|Bumped to 5.10.88
 |||added Broadcom Tigon Ethernet PHY support
 |20220115|gkkpch|Bumped to 5.10.91
