@@ -67,7 +67,6 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 
 ### **Moving to kernel 6.1.y**
 
-<sub>
 
 |Date|Author|Change
 |---|---|---|
