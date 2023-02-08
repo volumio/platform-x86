@@ -81,7 +81,7 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |||Bumped to kernel 6.1.4
 |20230114|gkkpch|Bumped to kernel 6.1.6
 |20230130|gkkpch|Bumped to 6.1.8, add direct DSD support: TempoTec Sonata BHD & E1DA #9038D
-  
+|20230208|gkkpch|Bumped to 6.1.10 (fixes an issue with cifs/smb v1.0)  
 
 
 
