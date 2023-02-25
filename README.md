@@ -63,7 +63,9 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |||enabled Intel i225-lm/ i225-v ethernet controllers
 |20220830|gkkpch|Bumped to 5.10.139
 |20230131|gkkpch|Bumped to 5.10.165
-|||added support for additional DSD capable devices (see 6.
+|||added support for additional DSD capable devices (see 6.1.8)
+|20230225|gkkpch|Bumped to 5.10.170
+
 
 ### **Moving to kernel 6.1.y**
 
@@ -82,7 +84,7 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230114|gkkpch|Bumped to kernel 6.1.6
 |20230130|gkkpch|Bumped to 6.1.8, add direct DSD support: TempoTec Sonata BHD & E1DA #9038D
 |20230208|gkkpch|Bumped to 6.1.10 (fixes an issue with cifs/smb v1.0)  
-
+|20230225|gkkpch|Bumped to 6.1.14
 
 
 
