@@ -86,7 +86,11 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230208|gkkpch|Bumped to 6.1.10 (fixes an issue with cifs/smb v1.0)  
 |20230225|gkkpch|Bumped to 6.1.14
 |20230330|gkkpch|Bumped to 5.10.176 & 6.1.22
-|||Kernel 6.1.y LTS: added support for RTL8812AU, support for UGreen BT 5.0 (0x2b89:0x8761)
+|||Kernel 6.1.y LTS: add wireless support for RTL8812AU
+|||Kernel 6.1.y LTS: add BT support for Ugreen BT 5.0 (VID/PID: 0x2b89:0x8761)
+|20230420|gkkpch|Kernel 5.10.y LTS: pulling version 5.10.178 
+|||Kernel 6.1.y LTS: pulling version 6.1.25
+|||Kernel 6.1.y LTS: patch to re-enable touchscreen on Toshiba Satellite Mini Click"
 
 
 
