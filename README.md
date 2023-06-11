@@ -91,7 +91,7 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230420|gkkpch|Kernel 5.10.y LTS: pulling version 5.10.178 
 |||Kernel 6.1.y LTS: pulling version 6.1.25
 |||Kernel 6.1.y LTS: patch to re-enable touchscreen on Toshiba Satellite Mini Click"
-
+|20230611|gkkpch|Bumped to kernel 5.10.183 & 6.1.33
 
 
 
