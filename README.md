@@ -5,8 +5,6 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 
 ### **Tracking from buster 08.10.2019**
 
-<sub>
-
 |Date|Author|Change
 |---|---|---|
 |20191018|gkkpch|Bumped kernel version to 4.19.79
@@ -65,6 +63,9 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230131|gkkpch|Bumped to 5.10.165
 |||added support for additional DSD capable devices (see 6.1.8)
 |20230225|gkkpch|Bumped to 5.10.170
+|20230611|gkkpch|Bumped to 5.10.183
+|20230731|gkkpch|Bumped to 5.10.188
+
 
 
 ### **Moving to kernel 6.1.y**
@@ -91,7 +92,12 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230420|gkkpch|Kernel 5.10.y LTS: pulling version 5.10.178 
 |||Kernel 6.1.y LTS: pulling version 6.1.25
 |||Kernel 6.1.y LTS: patch to re-enable touchscreen on Toshiba Satellite Mini Click"
-|20230611|gkkpch|Bumped to kernel 5.10.183 & 6.1.33
+|20230611|gkkpch|Bumped to kernel 6.1.33 
+|20230731|gkkpch|Bumped to kernel 6.1.42
+|||Kernel 6.1.y LTS: removed Toshiba Satellite patch (now obsolete)
+|||kernel 6.1.y LTS: adapted usb adio patch to fit the current "quirks.c" module
+
+
 
 
 
