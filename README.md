@@ -65,7 +65,7 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230225|gkkpch|Bumped to 5.10.170
 |20230611|gkkpch|Bumped to 5.10.183
 |20230731|gkkpch|Bumped to 5.10.188
-
+|20230921|gkkpch|Re-added prematurely removed linux-firmware-buster.tar.xz
 
 
 ### **Moving to kernel 6.1.y**
