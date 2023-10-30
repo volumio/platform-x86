@@ -66,14 +66,12 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230611|gkkpch|Bumped to 5.10.183
 |20230731|gkkpch|Bumped to 5.10.188
 |20230921|gkkpch|Re-added prematurely removed linux-firmware-buster.tar.xz
-
+|20231030|gkkpch|Kernel 5.10.y frozen (5.10.188 last version)
 
 ### **Moving to kernel 6.1.y**
 
-
 |Date|Author|Change
 |---|---|---|
-|||Build for 5.10.139 frozen, no more updates.
 |20230103|gkkpch|Added kernel 6.1.2
 |20230104|gkkpch|Merged linux-firmware-20211027 (for kernel 5.10), firmware-b43, firmware-brcm-sdio-nvram 
 |||and firmware-cfg80211 into a single firmware tarball ```firmware-20211127.tar.xz```
@@ -96,9 +94,14 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230731|gkkpch|Bumped to kernel 6.1.42
 |||Kernel 6.1.y LTS: removed Toshiba Satellite patch (now obsolete)
 |||kernel 6.1.y LTS: adapted usb adio patch to fit the current "quirks.c" module
+|20230828|gkkpch|Bumped to kernel 6.1.49
+|20231030|gkkpch|Kernel 6.1.y frozen (6.1.49 last version)
 
+### **Moving to kernel 6.6.y**
 
-
+|Date|Author|Change
+|---|---|---|
+|20231030|gkkpch|Added kernel 6.6.0 (waiting for LTS)
 
 
 
