@@ -95,7 +95,7 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |||Kernel 6.1.y LTS: removed Toshiba Satellite patch (now obsolete)
 |||kernel 6.1.y LTS: adapted usb adio patch to fit the current "quirks.c" module
 |20230828|gkkpch|Bumped to kernel 6.1.49
-|20231030|gkkpch|Kernel 6.1.y frozen (6.1.49 last version)
+|20231108|gkkpch|Kernel 6.1.y Bumped to 6.1.62 (last version)
 
 ### **Moving to kernel 6.6.y**
 
