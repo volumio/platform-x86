@@ -103,6 +103,8 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |---|---|---|
 |20231030|gkkpch|Added kernel 6.6.0 (waiting for LTS)
 |20231110|gkkpch|Kernel 6.6.y Bumped to 6.6.1
+|20231213|gkkpch|Kernel 6.6.y Bumped to 6.6.6
+
 
 
 
