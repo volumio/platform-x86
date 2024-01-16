@@ -66,7 +66,7 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20230611|gkkpch|Bumped to 5.10.183
 |20230731|gkkpch|Bumped to 5.10.188
 |20230921|gkkpch|Re-added prematurely removed linux-firmware-buster.tar.xz
-|20231030|gkkpch|Kernel 5.10.y frozen (5.10.188 last version)
+|20240115|gkkpch|Kernel 5.10.y Bumped to 5.10.204 (5.10.204 last version)
 
 ### **Moving to kernel 6.1.y**
 
@@ -107,6 +107,7 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |20231218|gkkpch|Kernel 6.6.y Bumped to 6.6.7
 |||Added kernel module 'autofs4'
 |||Also keep 'libc-dev' package in platform-x86
+|20240115|gkkpch|Kernel 6.6.y Bumped to 6.6.12
 
 
 
