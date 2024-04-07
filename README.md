@@ -109,7 +109,7 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |||Also keep 'libc-dev' package in platform-x86
 |20240115|gkkpch|Kernel 6.6.y Bumped to 6.6.12
 |20240124|gkkpch|Kernel 6.6.y Bumped to 6.6.13
-
+|20240407|gkkpch|Resumed with Kernel 6.6.25
 
 
 
