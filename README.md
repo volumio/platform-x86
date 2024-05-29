@@ -108,11 +108,12 @@ All references to Volumio 2/ Kernel 3.18.25 have been removed
 |||Added kernel module 'autofs4'
 |||Also keep 'libc-dev' package in platform-x86
 |20240115|gkkpch|Kernel 6.6.y Bumped to 6.6.12
-|20240124|gkkpch|Kernel 6.6.y Bumped to 6.6.13
-|20240407|gkkpch|Resumed with Kernel 6.6.25
-|20240501|gkkpch|Resumed with Kernel 6.6.29
-|20240503|gkkpch|Bumped to Kernel 6.6.30
-
+|20240124||Kernel 6.6.y Bumped to 6.6.13
+|20240407||Resumed with Kernel 6.6.25
+|20240501||Resumed with Kernel 6.6.29
+|20240511||Bumped to Kernel 6.6.30
+|20240518||Bumped to Kernel 6.6.31
+|20240529||Bumped to Kernel 6.6.32
 
 
 
